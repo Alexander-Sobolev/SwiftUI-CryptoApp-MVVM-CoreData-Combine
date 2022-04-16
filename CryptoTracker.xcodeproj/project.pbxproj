@@ -25,6 +25,7 @@
 		B480E9E7280A87F4006222E0 /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480E9E6280A87F4006222E0 /* CoinImageView.swift */; };
 		B480E9E9280A8837006222E0 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480E9E8280A8837006222E0 /* CoinImageViewModel.swift */; };
 		B480E9EB280A8CF6006222E0 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480E9EA280A8CF6006222E0 /* CoinImageService.swift */; };
+		B4F60F89280B180100C0B994 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F60F88280B180100C0B994 /* LocalFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		B480E9E6280A87F4006222E0 /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
 		B480E9E8280A8837006222E0 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
 		B480E9EA280A8CF6006222E0 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
+		B4F60F88280B180100C0B994 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				B480E9E3280A70EF006222E0 /* NetworkingManager.swift */,
+				B4F60F88280B180100C0B994 /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				B480E9E028093050006222E0 /* CoinDataService.swift in Sources */,
 				B480E9D72808AFAC006222E0 /* CoinRowView.swift in Sources */,
 				B480E9DD280923ED006222E0 /* HomeViewModel.swift in Sources */,
+				B4F60F89280B180100C0B994 /* LocalFileManager.swift in Sources */,
 				B480E99E2807D49B006222E0 /* ContentView.swift in Sources */,
 				B480E9B32807DDD4006222E0 /* HomeView.swift in Sources */,
 				B480E9E7280A87F4006222E0 /* CoinImageView.swift in Sources */,
