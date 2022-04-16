@@ -28,6 +28,9 @@
 		B4F60F89280B180100C0B994 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F60F88280B180100C0B994 /* LocalFileManager.swift */; };
 		B4F60F8B280B20FF00C0B994 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F60F8A280B20FF00C0B994 /* SearchBarView.swift */; };
 		B4F60F8D280B21D300C0B994 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F60F8C280B21D300C0B994 /* UIApplication.swift */; };
+		B4F60F8F280B3C7600C0B994 /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F60F8E280B3C7600C0B994 /* StatisticModel.swift */; };
+		B4F60F91280B3CD900C0B994 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F60F90280B3CD900C0B994 /* StatisticView.swift */; };
+		B4F60F93280B3D8000C0B994 /* HomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F60F92280B3D8000C0B994 /* HomeStatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +56,9 @@
 		B4F60F88280B180100C0B994 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		B4F60F8A280B20FF00C0B994 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		B4F60F8C280B21D300C0B994 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		B4F60F8E280B3C7600C0B994 /* StatisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
+		B4F60F90280B3CD900C0B994 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		B4F60F92280B3D8000C0B994 /* HomeStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				B480E9B22807DDD4006222E0 /* HomeView.swift */,
+				B4F60F92280B3D8000C0B994 /* HomeStatsView.swift */,
 				B480E9D62808AFAC006222E0 /* CoinRowView.swift */,
 			);
 			path = Views;
@@ -158,6 +165,7 @@
 				B480E9E5280A87BF006222E0 /* CoinImage */,
 				B480E9B52807DE61006222E0 /* CircleButton */,
 				B4F60F8A280B20FF00C0B994 /* SearchBarView.swift */,
+				B4F60F90280B3CD900C0B994 /* StatisticView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -175,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				B480E9D42808A624006222E0 /* CoinModel.swift */,
+				B4F60F8E280B3C7600C0B994 /* StatisticModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -276,12 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4F60F8F280B3C7600C0B994 /* StatisticModel.swift in Sources */,
 				B480E9E9280A8837006222E0 /* CoinImageViewModel.swift in Sources */,
 				B480E9E028093050006222E0 /* CoinDataService.swift in Sources */,
 				B480E9D72808AFAC006222E0 /* CoinRowView.swift in Sources */,
 				B480E9DD280923ED006222E0 /* HomeViewModel.swift in Sources */,
 				B4F60F89280B180100C0B994 /* LocalFileManager.swift in Sources */,
 				B480E99E2807D49B006222E0 /* ContentView.swift in Sources */,
+				B4F60F91280B3CD900C0B994 /* StatisticView.swift in Sources */,
 				B480E9B32807DDD4006222E0 /* HomeView.swift in Sources */,
 				B480E9E7280A87F4006222E0 /* CoinImageView.swift in Sources */,
 				B4F60F8D280B21D300C0B994 /* UIApplication.swift in Sources */,
@@ -289,6 +300,7 @@
 				B480E9B72807DE8C006222E0 /* CircleButtonView.swift in Sources */,
 				B4F60F8B280B20FF00C0B994 /* SearchBarView.swift in Sources */,
 				B480E9AD2807D5F2006222E0 /* Color.swift in Sources */,
+				B4F60F93280B3D8000C0B994 /* HomeStatsView.swift in Sources */,
 				B480E9E4280A70EF006222E0 /* NetworkingManager.swift in Sources */,
 				B480E9B92807DF22006222E0 /* CircleButtonAnimationView.swift in Sources */,
 				B480E9D92808AFE8006222E0 /* PreviewProvider.swift in Sources */,
