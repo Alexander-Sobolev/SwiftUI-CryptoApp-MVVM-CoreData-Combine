@@ -36,6 +36,29 @@
 		B480E9EB280A8CF6006222E0 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480E9EA280A8CF6006222E0 /* CoinImageService.swift */; };
 		B4A9CF99280F478800CF210C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A9CF98280F478800CF210C /* DetailView.swift */; };
 		B4C16907280DE58800C02A24 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C16906280DE58800C02A24 /* HapticManager.swift */; };
+		B4F1938A2815C7EC004A2CB4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F193892815C7EC004A2CB4 /* SettingsView.swift */; };
+		B4F1938E2815D82F004A2CB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F1938D2815D82F004A2CB4 /* LaunchScreen.storyboard */; };
+		B4F193912815D9C8004A2CB4 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F193902815D9C8004A2CB4 /* LaunchView.swift */; };
+		B4F193932815E0DD004A2CB4 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F193922815E0DD004A2CB4 /* ChartView.swift */; };
+		B4F193952815E116004A2CB4 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F193942815E116004A2CB4 /* Date.swift */; };
+		B4F193972815E23D004A2CB4 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F193962815E23D004A2CB4 /* String.swift */; };
+		B4F193AB2815F177004A2CB4 /* s5.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F1939A2815F177004A2CB4 /* s5.png */; };
+		B4F193AC2815F177004A2CB4 /* s4.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F1939B2815F177004A2CB4 /* s4.png */; };
+		B4F193AD2815F177004A2CB4 /* s44.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F1939C2815F177004A2CB4 /* s44.png */; };
+		B4F193AE2815F177004A2CB4 /* s55.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F1939D2815F177004A2CB4 /* s55.png */; };
+		B4F193AF2815F177004A2CB4 /* s0.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F1939E2815F177004A2CB4 /* s0.png */; };
+		B4F193B02815F177004A2CB4 /* s2.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F1939F2815F177004A2CB4 /* s2.png */; };
+		B4F193B12815F177004A2CB4 /* s33.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F193A02815F177004A2CB4 /* s33.png */; };
+		B4F193B22815F177004A2CB4 /* i11.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F193A12815F177004A2CB4 /* i11.png */; };
+		B4F193B32815F177004A2CB4 /* s22.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F193A22815F177004A2CB4 /* s22.png */; };
+		B4F193B42815F177004A2CB4 /* s3.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F193A32815F177004A2CB4 /* s3.png */; };
+		B4F193B52815F177004A2CB4 /* s66.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F193A42815F177004A2CB4 /* s66.png */; };
+		B4F193B62815F177004A2CB4 /* s11.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F193A52815F177004A2CB4 /* s11.png */; };
+		B4F193B72815F177004A2CB4 /* s1.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F193A62815F177004A2CB4 /* s1.png */; };
+		B4F193B82815F177004A2CB4 /* s6.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F193A72815F177004A2CB4 /* s6.png */; };
+		B4F193B92815F177004A2CB4 /* i22.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F193A82815F177004A2CB4 /* i22.png */; };
+		B4F193BA2815F177004A2CB4 /* i2.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F193A92815F177004A2CB4 /* i2.png */; };
+		B4F193BB2815F177004A2CB4 /* i1.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F193AA2815F177004A2CB4 /* i1.png */; };
 		B4F60F89280B180100C0B994 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F60F88280B180100C0B994 /* LocalFileManager.swift */; };
 		B4F60F8B280B20FF00C0B994 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F60F8A280B20FF00C0B994 /* SearchBarView.swift */; };
 		B4F60F8D280B21D300C0B994 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F60F8C280B21D300C0B994 /* UIApplication.swift */; };
@@ -75,6 +98,30 @@
 		B480E9EA280A8CF6006222E0 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		B4A9CF98280F478800CF210C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		B4C16906280DE58800C02A24 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		B4F193892815C7EC004A2CB4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B4F1938D2815D82F004A2CB4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4F1938F2815D985004A2CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B4F193902815D9C8004A2CB4 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		B4F193922815E0DD004A2CB4 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		B4F193942815E116004A2CB4 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		B4F193962815E23D004A2CB4 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		B4F1939A2815F177004A2CB4 /* s5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s5.png; sourceTree = "<group>"; };
+		B4F1939B2815F177004A2CB4 /* s4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s4.png; sourceTree = "<group>"; };
+		B4F1939C2815F177004A2CB4 /* s44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s44.png; sourceTree = "<group>"; };
+		B4F1939D2815F177004A2CB4 /* s55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s55.png; sourceTree = "<group>"; };
+		B4F1939E2815F177004A2CB4 /* s0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s0.png; sourceTree = "<group>"; };
+		B4F1939F2815F177004A2CB4 /* s2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s2.png; sourceTree = "<group>"; };
+		B4F193A02815F177004A2CB4 /* s33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s33.png; sourceTree = "<group>"; };
+		B4F193A12815F177004A2CB4 /* i11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i11.png; sourceTree = "<group>"; };
+		B4F193A22815F177004A2CB4 /* s22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s22.png; sourceTree = "<group>"; };
+		B4F193A32815F177004A2CB4 /* s3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s3.png; sourceTree = "<group>"; };
+		B4F193A42815F177004A2CB4 /* s66.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s66.png; sourceTree = "<group>"; };
+		B4F193A52815F177004A2CB4 /* s11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s11.png; sourceTree = "<group>"; };
+		B4F193A62815F177004A2CB4 /* s1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s1.png; sourceTree = "<group>"; };
+		B4F193A72815F177004A2CB4 /* s6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s6.png; sourceTree = "<group>"; };
+		B4F193A82815F177004A2CB4 /* i22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i22.png; sourceTree = "<group>"; };
+		B4F193A92815F177004A2CB4 /* i2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i2.png; sourceTree = "<group>"; };
+		B4F193AA2815F177004A2CB4 /* i1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i1.png; sourceTree = "<group>"; };
 		B4F60F88280B180100C0B994 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		B4F60F8A280B20FF00C0B994 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		B4F60F8C280B21D300C0B994 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
@@ -113,10 +160,12 @@
 		B480E99A2807D49B006222E0 /* CryptoTracker */ = {
 			isa = PBXGroup;
 			children = (
+				B4F193992815F15F004A2CB4 /* Screens */,
+				B4F1938F2815D985004A2CB4 /* Info.plist */,
 				B480E99B2807D49B006222E0 /* CryptoTrackerApp.swift */,
+				B480E9E2280A708F006222E0 /* Utilities */,
 				B480E9AB2807D543006222E0 /* Extensions */,
 				B480E9DE28093017006222E0 /* Services */,
-				B480E9E2280A708F006222E0 /* Utilities */,
 				B480E9D32808A5F4006222E0 /* Models */,
 				B480E9AE2807DD7B006222E0 /* Core */,
 				B480E9D12808A59C006222E0 /* Assets.xcassets */,
@@ -140,6 +189,8 @@
 				B480E9D82808AFE8006222E0 /* PreviewProvider.swift */,
 				B480E9DA2808B04D006222E0 /* Double.swift */,
 				B4F60F8C280B21D300C0B994 /* UIApplication.swift */,
+				B4F193942815E116004A2CB4 /* Date.swift */,
+				B4F193962815E23D004A2CB4 /* String.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -147,6 +198,8 @@
 		B480E9AE2807DD7B006222E0 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				B4F1938B2815D7F0004A2CB4 /* Launch */,
+				B4F193872815C796004A2CB4 /* SettingsView */,
 				B480E9B42807DE50006222E0 /* Components */,
 				B480E9AF2807DD93006222E0 /* Home */,
 				B4A9CF95280F472800CF210C /* Detail */,
@@ -268,8 +321,66 @@
 			isa = PBXGroup;
 			children = (
 				B4A9CF98280F478800CF210C /* DetailView.swift */,
+				B4F193922815E0DD004A2CB4 /* ChartView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		B4F193872815C796004A2CB4 /* SettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				B4F193882815C7CF004A2CB4 /* Views */,
+			);
+			path = SettingsView;
+			sourceTree = "<group>";
+		};
+		B4F193882815C7CF004A2CB4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4F193892815C7EC004A2CB4 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B4F1938B2815D7F0004A2CB4 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				B4F1938C2815D80A004A2CB4 /* Views */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		B4F1938C2815D80A004A2CB4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4F1938D2815D82F004A2CB4 /* LaunchScreen.storyboard */,
+				B4F193902815D9C8004A2CB4 /* LaunchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B4F193992815F15F004A2CB4 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B4F193A42815F177004A2CB4 /* s66.png */,
+				B4F1939D2815F177004A2CB4 /* s55.png */,
+				B4F1939C2815F177004A2CB4 /* s44.png */,
+				B4F193A02815F177004A2CB4 /* s33.png */,
+				B4F193A22815F177004A2CB4 /* s22.png */,
+				B4F193A52815F177004A2CB4 /* s11.png */,
+				B4F193A72815F177004A2CB4 /* s6.png */,
+				B4F1939A2815F177004A2CB4 /* s5.png */,
+				B4F1939B2815F177004A2CB4 /* s4.png */,
+				B4F193A32815F177004A2CB4 /* s3.png */,
+				B4F1939F2815F177004A2CB4 /* s2.png */,
+				B4F193A62815F177004A2CB4 /* s1.png */,
+				B4F1939E2815F177004A2CB4 /* s0.png */,
+				B4F193A82815F177004A2CB4 /* i22.png */,
+				B4F193A12815F177004A2CB4 /* i11.png */,
+				B4F193A92815F177004A2CB4 /* i2.png */,
+				B4F193AA2815F177004A2CB4 /* i1.png */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,6 +441,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4F193B42815F177004A2CB4 /* s3.png in Resources */,
+				B4F193B52815F177004A2CB4 /* s66.png in Resources */,
+				B4F193AE2815F177004A2CB4 /* s55.png in Resources */,
+				B4F193AC2815F177004A2CB4 /* s4.png in Resources */,
+				B4F1938E2815D82F004A2CB4 /* LaunchScreen.storyboard in Resources */,
+				B4F193B12815F177004A2CB4 /* s33.png in Resources */,
+				B4F193AB2815F177004A2CB4 /* s5.png in Resources */,
+				B4F193B22815F177004A2CB4 /* i11.png in Resources */,
+				B4F193AF2815F177004A2CB4 /* s0.png in Resources */,
+				B4F193B62815F177004A2CB4 /* s11.png in Resources */,
+				B4F193B82815F177004A2CB4 /* s6.png in Resources */,
+				B4F193AD2815F177004A2CB4 /* s44.png in Resources */,
+				B4F193B02815F177004A2CB4 /* s2.png in Resources */,
+				B4F193BA2815F177004A2CB4 /* i2.png in Resources */,
+				B4F193B32815F177004A2CB4 /* s22.png in Resources */,
+				B4F193BB2815F177004A2CB4 /* i1.png in Resources */,
+				B4F193B72815F177004A2CB4 /* s1.png in Resources */,
+				B4F193B92815F177004A2CB4 /* i22.png in Resources */,
 				B480E9A32807D49C006222E0 /* Preview Assets.xcassets in Resources */,
 				B480E9D22808A59C006222E0 /* Assets.xcassets in Resources */,
 			);
@@ -342,11 +471,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4F193972815E23D004A2CB4 /* String.swift in Sources */,
 				B4F60F8F280B3C7600C0B994 /* StatisticModel.swift in Sources */,
 				B480E9E9280A8837006222E0 /* CoinImageViewModel.swift in Sources */,
 				B480E9E028093050006222E0 /* CoinDataService.swift in Sources */,
 				B461138F280C961B00F36B9A /* XMarkButton.swift in Sources */,
 				B480E9D72808AFAC006222E0 /* CoinRowView.swift in Sources */,
+				B4F1938A2815C7EC004A2CB4 /* SettingsView.swift in Sources */,
 				B46242D1280D34C200FFF01E /* PortfolioContainer.xcdatamodeld in Sources */,
 				B480E9DD280923ED006222E0 /* HomeViewModel.swift in Sources */,
 				B4F60F89280B180100C0B994 /* LocalFileManager.swift in Sources */,
@@ -364,6 +495,7 @@
 				B480E9AD2807D5F2006222E0 /* Color.swift in Sources */,
 				B4611391280C966500F36B9A /* CoinLogoView.swift in Sources */,
 				B46242D3280D355300FFF01E /* PortfolioDataService.swift in Sources */,
+				B4F193932815E0DD004A2CB4 /* ChartView.swift in Sources */,
 				B4F60F93280B3D8000C0B994 /* HomeStatsView.swift in Sources */,
 				B461138A280C883600F36B9A /* MarketDataService.swift in Sources */,
 				B480E9E4280A70EF006222E0 /* NetworkingManager.swift in Sources */,
@@ -371,7 +503,9 @@
 				B480E9D92808AFE8006222E0 /* PreviewProvider.swift in Sources */,
 				B4C16907280DE58800C02A24 /* HapticManager.swift in Sources */,
 				B461138D280C954700F36B9A /* PortfolioView.swift in Sources */,
+				B4F193952815E116004A2CB4 /* Date.swift in Sources */,
 				B47CE9E128127F04004F9DB1 /* CoinDetailDataService.swift in Sources */,
+				B4F193912815D9C8004A2CB4 /* LaunchView.swift in Sources */,
 				B480E9DB2808B04D006222E0 /* Double.swift in Sources */,
 				B480E9EB280A8CF6006222E0 /* CoinImageService.swift in Sources */,
 				B480E9D52808A624006222E0 /* CoinModel.swift in Sources */,
@@ -508,9 +642,10 @@
 				DEVELOPMENT_TEAM = XRTUKAGRTL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -539,9 +674,10 @@
 				DEVELOPMENT_TEAM = XRTUKAGRTL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

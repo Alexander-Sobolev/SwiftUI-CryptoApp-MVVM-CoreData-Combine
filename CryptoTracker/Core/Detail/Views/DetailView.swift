@@ -38,8 +38,8 @@ struct DetailView: View {
   var body: some View {
     ScrollView {
       VStack {
-        Text("")
-          .frame(height: 150)
+        ChartView(coin: vm.coin)
+          .padding(.vertical)
         
         VStack(spacing: 20) {
           overviewTitle

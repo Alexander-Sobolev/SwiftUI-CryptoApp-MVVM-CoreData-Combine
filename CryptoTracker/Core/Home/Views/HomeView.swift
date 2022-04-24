@@ -12,7 +12,7 @@ struct HomeView: View {
   @EnvironmentObject private var vm: HomeViewModel
   @State private var showPortfolio: Bool = false // animate right
   @State private var showPortfolioView: Bool = false // new sheet
-  
+  @State private var showSettingsView: Bool = false // new sheet
   @State private var selectedCoin: CoinModel? = nil
   @State private var showDetailView: Bool = false
   
@@ -38,12 +38,21 @@ struct HomeView: View {
         }
         
         if showPortfolio {
-          portfolioCoinsList
+          ZStack(alignment: .top) {
+            if vm.portfolioCoins.isEmpty && vm.searchText.isEmpty {
+              portfolioEmptyText
+            } else {
+              portfolioCoinsList
+            }
+          }
             .transition(.move(edge: .trailing))
         }
         
         Spacer(minLength: 0)
       }
+      .sheet(isPresented: $showSettingsView, content: {
+        SettingsView()
+      })
     }
     .background(
       NavigationLink(
@@ -74,6 +83,8 @@ extension HomeView {
         .onTapGesture {
           if showPortfolio {
             showPortfolioView.toggle()
+          } else {
+            showSettingsView.toggle()
           }
         }
         .background(
@@ -105,14 +116,10 @@ extension HomeView {
           .onTapGesture {
             segue(coin: coin)
           }
+          .listRowBackground(Color.theme.background)
       }
     }
     .listStyle(PlainListStyle())
-  }
-  
-  private func segue(coin: CoinModel) {
-    selectedCoin = coin
-    showDetailView.toggle()
   }
   
   private var portfolioCoinsList: some View {
@@ -120,9 +127,27 @@ extension HomeView {
       ForEach(vm.portfolioCoins) { coin in
         CoinRowView(coin: coin, showHoldingsColumn: false)
           .listRowInsets(.init(top: 10, leading: 0, bottom: 10, trailing: 0))
+          .onTapGesture {
+            segue(coin: coin)
+          }
+          .listRowBackground(Color.theme.background)
       }
     }
     .listStyle(PlainListStyle())
+  }
+  
+  private var portfolioEmptyText: some View {
+    Text("You haven't added any coins to your portfolio yet. Click the + button to get started! 🧐")
+      .font(.callout)
+      .foregroundColor(Color.theme.accent)
+      .fontWeight(.medium)
+      .multilineTextAlignment(.center)
+      .padding(50)
+  }
+  
+  private func segue(coin: CoinModel) {
+    selectedCoin = coin
+    showDetailView.toggle()
   }
   
   private var columTitles: some View {
